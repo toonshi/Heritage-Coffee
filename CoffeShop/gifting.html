@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="with=device-width,initial-scale=1.0">
+        <title>heritage coffee website</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon"href="c:\Users\sally\OneDrive\Desktop\CoffeShop\WhatsApp Image 2023-11-21 at 12.20.11.jpeg"type="image/.icon">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    </head>
+    <body> 
+        <h2> HERITAGE COFFEE HAVEN</h2>
+        <p>coffee & bakery</p>
+
+        <section class="header">
+            <nav>
+               <a href="home.html"><img src="c:\Users\sally\OneDrive\Desktop\CoffeShop\WhatsApp Image 2023-11-21 at 12.20.11.jpeg" height="150"></a> 
+                <div class="nav-links" id="navLinks">
+                    
+                    <i class="fa fa-times"onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="menu.html"> Menu</a></li>
+                        <li><a href="order.html">Order</a></li>
+                        <li><a href="gifting.html">gifting <i class="fas fa-caret-down"></i></a>
+                         <div class="dropdown_menu">
+                            <ul>
+                                <li><a href="">holiday gift basket</a></li>
+                                <li><a href="">gift card</a></li>
+                            </ul>
+                        </div>
+                        </li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="feedback.html">Feedback</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+
+                </div>
+
+                <i class="fa fa-bars"onclick="showMenu()"></i>
+                
+            </nav>
+           
+
+        </section>
+        <section>
+            <h2>Gift Cards</h2>
+            <p>Giving the gift of coffee with our customizable gift cards!</p>
+            <div class="gift-card">
+              <img src="">
+              <h3>Choose an Amount</h3>
+              <form>
+                <label for="amount">Amount(from KSH 150):</label>
+                <input type="number" id="amount" name="amount" min="10" max="100" step="10" required>
+                <button type="submit">Add to Cart</button>
+              </form>
+            </div>
+          </section>
+    </body>
+</html>

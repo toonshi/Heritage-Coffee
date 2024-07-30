@@ -4,14 +4,14 @@ const bodyParser = require('body-parser');
 const cors = require('cors');
 
 const app = express();
-const port = 5000; // or any port you prefer
+const port = 5000; 
 
 app.use(cors());
 app.use(bodyParser.json());
 
-// Example route
+// app route
 app.get('/api/menu', (req, res) => {
-    // Example data; replace with your actual data
+    // Example data
     const menu = [
         { id: 1, name: 'Espresso', price: 3.00 },
         { id: 2, name: 'Latte', price: 4.00 }
